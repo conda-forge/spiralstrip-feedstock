@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "2.0.3"
+  version: "2.0.4"
 
 package:
   name: spiralstrip
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/f1/71/51d1a7689e327784f2f1ac4ae0fca81d764d884b7e41e4163b954c512c3a/spiralstrip-2.0.3.tar.gz
-  sha256: edb31fb1ecf8ae8f640fb1e9ab299d36c31d170d95566015415a4e1a8131257b
+  url: https://files.pythonhosted.org/packages/f8/99/7406f666e7d8837dd46ef0d728612cb5fc2a989c60a5e3abec8d77f209ea/spiralstrip-${{ version }}.tar.gz
+  sha256: 3ffc2e9ce51172b798ff9878f717ad1249f0d4a628a3a6a104b87996a38814d8
 
 build:
   number: 0
